@@ -49,7 +49,6 @@ const NewsCard = ({ news }) => {
       <Card.Footer className="text-muted d-flex align-items-center">
         <div className="flex-grow-1 ">
           <Rating
-            className="ms-2"
             placeholderRating={rating.number}
             readonly
             emptySymbol={<FaRegStar></FaRegStar>}
